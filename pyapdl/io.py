@@ -6,13 +6,16 @@ class Script(object):
        self.__code = []
         
     def append(self,_str):
-        self.__code.append(_str+"\n")
+        if isinstance(_str,tuple) or isinstance(_str,list):
+            for cd in _str:
+                self.__code.append("%s\n"%(cd))
+        else:
+            self.__code.append("%s\n"%(_str))
         
     def save(self,filename):
         f = open(filename, "w")
         f.writelines(self.__code)
         f.close()
-        
 
 if __name__ == '__main__':
     pass

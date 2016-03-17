@@ -12,6 +12,7 @@ def create_keypoint(n,*args):
         coordinates as arguments.
         
     ::
+    
         # Example
         kp1 = 1
         kp2 = 2
@@ -36,6 +37,7 @@ def create_node(n,*args):
         coordinates as arguments.
         
     ::
+    
         # Example
         node1 = 1
         node2 = 2
@@ -51,7 +53,7 @@ def create_node(n,*args):
     
 def create_line(kp1,kp2):
     """
-        Parameters:
+    Parameters:
     -----------
     kp1 : int
         First keypoint

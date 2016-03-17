@@ -60,3 +60,9 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Test files
+test*.py
+
+# ANSYS folder 
+/ansys_test
