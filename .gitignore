@@ -65,4 +65,4 @@ target/
 test*.py
 
 # ANSYS folder 
-/ansys_test
+/_ansys_test/
