@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from geometry import *
 
 class Script(object):
     def __init__(self):

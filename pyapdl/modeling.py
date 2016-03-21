@@ -60,7 +60,7 @@ def create_line(kp1,kp2):
     kp2 : int
         Second keypoint
     """
-    _ln = "LINE,%g,%g"%(kp1,kp2)
+    _ln = "L,%g,%g"%(kp1,kp2)
     return _ln
 
 if __name__ == '__main__':

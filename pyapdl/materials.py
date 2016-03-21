@@ -51,5 +51,9 @@ class Material(object):
         return "\n".join([E_str,nu_str,density_str])
         
 
+def create_material(n,**kwargs):
+    m = Material(n,**kwargs)
+    return m.toANSYS(n)
+
 if __name__ == '__main__':
-    pass
+    print create_material(1,E=100,nu=0.3,density=7850)

@@ -18,6 +18,7 @@ def create_element(number,etype):
         create_element(1, "PLANE182") # -> ET,1,PLANE182
     """
     _el = "ET,%g,%s"%(number,etype)
+    return _el
     
 
 if __name__ == '__main__':
