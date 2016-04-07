@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 class Script(object):
+    """
+    Script class for I/O operations
+    """
     def __init__(self):
        self.__code = []
         
@@ -18,6 +21,7 @@ class Script(object):
         
     def __str__(self):
         return "".join(self.__code)
+
 
 if __name__ == '__main__':
     pass

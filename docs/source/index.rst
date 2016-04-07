@@ -18,6 +18,14 @@ Modeling
 .. automodule:: pyapdl.modeling
    :members:
    :undoc-members:
+   :show-inheritance:       
+
+Sections
+--------
+
+.. automodule:: pyapdl.sections
+   :members:
+   :undoc-members:
    :show-inheritance:
 
 Solution

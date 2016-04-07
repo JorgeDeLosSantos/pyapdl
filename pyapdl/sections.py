@@ -4,6 +4,17 @@ class Section(object):
         pass
 
 class RectangleSection(Section):
+    """
+    Rectangle section
+    
+    Parameters
+    ----------
+    
+    b : int, float
+        Rectangle base
+    h : int, float
+        Rectangle height
+    """
     def __init__(self,b,h):
         Section.__init__(self)
         self.b = b
@@ -15,6 +26,25 @@ class RectangleSection(Section):
         return (len(self.data)*"%s,")%self.data
         
 class ISection(Section):
+    """
+    Creates a ISection 
+    
+    Parameters
+    ----------
+    
+    w1 : int,float
+        Width 1
+    w2 : int,float
+        Width 2
+    w3 : int,float
+        Width 3
+    t1 : int,float
+        Thickness 1
+    t2 : int,float
+        Thickness 2
+    t3 : int,float
+        Thickness 3
+    """
     def __init__(self,w1,w2,w3,t1,t2,t3):
         Section.__init__(self)
         self.w1 = w1
