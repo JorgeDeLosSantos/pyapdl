@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append(r"C:\Users\User\Desktop\LABPro\PX1604 - PyAPDL\pyapdl")
+import os
+sys.path.append(os.path.pardir)
 from pyapdl import *
 
 s = Script()
@@ -30,4 +31,5 @@ s.append(sol())
 s.append(constraint_node(1))
 s.append(load_node(5,fy=-1000))
 
+s.preview()
 s.save(r"outs/beam_example.txt")

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append(r"C:\Users\User\Desktop\LABPro\PX1604 - PyAPDL\pyapdl")
-from pyapdl.modeling import *
-from pyapdl.io import *
+import os
+sys.path.append(os.path.pardir)
+from pyapdl import *
 
 s = Script()
 kps = {1:(0,0,0),
